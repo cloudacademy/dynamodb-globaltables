@@ -57,6 +57,8 @@ aws dynamodb describe-table \
 
 Setup 30 second watch on the ```cloudacademy-courses``` global table deployed in the ```ap-southeast-2``` region - and query the ```TableStatus``` attribute. Wait for it to reach ```Active``` status.
 
+**Note**: This command leverages the [jq utility](https://stedolan.github.io/jq/) to query the json data response for the ```TableStatus``` attribute
+
 ```
 watch -n 30 "aws dynamodb describe-table \
     --region ap-southeast-2 \
