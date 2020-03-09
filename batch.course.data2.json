@@ -1,0 +1,40 @@
+{
+    "cloudacademy-courses": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "4444444"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "Build AWS Serverless Web Applications With Python"},
+                    "url": {"S": "https://cloudacademy.com/course/build-aws-serverless-web-applications-with-python"},
+                    "duration": {"N": "119"},
+                    "instructor": {"S": "Ben Lambert"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "5555555"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "How to Use the AWS Command-Line Interface"},
+                    "url": {"S": "https://cloudacademy.com/course/how-to-use-the-aws-command-line-interface"},
+                    "duration": {"N": "50"},
+                    "instructor": {"S": "David Clinton"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "6666666"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "Advanced Use of Amazon API Gateway"},
+                    "url": {"S": "https://cloudacademy.com/course/advanced-use-of-amazon-api-gateway"},
+                    "duration": {"N": "22"},
+                    "instructor": {"S": "Tehreem Siddiqui"}
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "cloudacademy-courses": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "1111111"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "Working with Amazon DynamoDB"},
+                    "url": {"S": "https://cloudacademy.com/course/working-with-amazon-dynamodb/"},
+                    "duration": {"N": "92"},
+                    "instructor": {"S": "Ryan Park"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "2222222"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "Database Fundamentals for AWS"},
+                    "url": {"S": "https://cloudacademy.com/course/aws-database-fundamentals-aws-180"},
+                    "duration": {"N": "69"},
+                    "instructor": {"S": "Andrew Larkin"}
+                }
+            }
+        },
+        {
+            "PutRequest": {
+                "Item": {
+                    "courseid": {"S": "3333333"},
+                    "company": {"S": "CloudAcademy"},
+                    "title": {"S": "Working with Amazon DynamoDB"},
+                    "url": {"S": "https://cloudacademy.com/course/amazon-web-services-big-data-specialty-storage"},
+                    "duration": {"N": "107"},
+                    "instructor": {"S": "Shane Gibson"}
+                }
+            }
+        }
+    ]
+}
