@@ -66,13 +66,13 @@ watch -n 30 "aws dynamodb describe-table \
 
 Start up ```tmux``` and split the terminal. 
 
-Pane 1: Run the following command to query for a new record which we will load in the second tmux pane:
+**Pane 1**: Run the following command to query for a new record which we will load in the second tmux pane.
 
 ```
 watch -n1 "aws dynamodb get-item --region ap-southeast-2 --table-name cloudacademy-courses --key '{\"courseid\" : {\"S\" : \"6666666\"}}'"
 ```
 
-Pane 3: Load the new data set into the ```cloudacademy-courses```. Watch how long it takes before the results show up in pane 1.
+**Pane 2**: Load the new data set into the ```cloudacademy-courses```. Observe how long it takes before the results show up in the other tmux pane.
 
 ```
 aws dynamodb batch-write-item --region us-west-2 --request-items file://./batch.course.data2.json
