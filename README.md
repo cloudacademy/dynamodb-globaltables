@@ -14,7 +14,7 @@ aws dynamodb create-table \
 ## Step 2
 
 ```
-aws dynamodb batch-write-item --region us-west-2 --request-items file://./batch.course.data.json
+aws dynamodb batch-write-item --region us-west-2 --request-items file://./batch.course.data1.json
 ```
 
 ## Step 3
