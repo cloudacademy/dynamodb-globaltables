@@ -45,6 +45,8 @@ aws dynamodb update-table \
 
 Check to see if the ```cloudacademy-courses``` global table is ready in the ```ap-southeast-2``` region.
 
+**Note**: Wait 1-2 minutes before running this command to give the previous command enough time to propagate the table updates across to the new region.
+
 ```
 aws dynamodb describe-table \
     --region ap-southeast-2 \
