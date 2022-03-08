@@ -1,4 +1,4 @@
-# DynamoDB Global Tables Demostration
+# DynamoDB Global Tables Demonstration
 
 ## Step 1
 
